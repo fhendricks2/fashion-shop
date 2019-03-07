@@ -41,3 +41,16 @@
     color: #999999;
     margin-left: 17em;
 }
+
+@mixin banner-nav {
+    height: 11px;
+    font-family: Dosis;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+}

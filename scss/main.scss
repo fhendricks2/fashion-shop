@@ -54,3 +54,118 @@ i {
 .container>*>*:nth-child(8) {
     margin-left: 1.5em;
 }
+
+// Banner
+.banner {
+    width: 84.063em;
+    height: 59.063em;
+    background-color: #666666;
+    li {
+        display: inline-block;
+        margin: 0 1.5em;
+    }
+}
+
+.banner>*>*:nth-child(1) {
+    width: 22px;
+    height: 23px;
+    font-family: Linearicons-Free;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #ffffff;
+}
+.banner>*>*:nth-child(2) {
+    margin-left: 12em;
+    width: 36px;
+    @include banner-nav;
+}
+.banner>*>*:nth-child(3) {
+    width: 34px;
+    @include banner-nav;
+}
+.banner>*>*:nth-child(4) {
+    width: 44px;
+    @include banner-nav;
+}
+.banner>*>*:nth-child(5) {
+    width: 117px;
+    height: 21px;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #fffefe;
+}
+.banner>*>*:nth-child(6) {
+    width: 32px;
+    @include banner-nav;
+}
+.banner>*>*:nth-child(7) {
+    width: 66px;
+    @include banner-nav;
+}
+.banner>*>*:nth-child(8) {
+    margin-right: 10em;
+    width: 77px;
+   @include banner-nav;
+}
+.banner>*>*:nth-child(9) {
+    width: 21px;
+    height: 18px;
+    font-family: FontAwesome;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.txt2 {
+    width: 597px;
+    height: 38px;
+    font-family: Dosis;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 6em 0 0 7em;
+}
+
+.lorem {
+    width: 924px;
+    height: 39px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e6e6e6;
+    margin: 3em 0 0 13em;
+}
+
+.text-holder {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #a88d7b;
+    margin: 10em 0 0 43em;
+}
