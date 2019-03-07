@@ -1,3 +1,81 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.en {
+  width: 13px;
+  height: 9px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
 
+.zar {
+  width: 21px;
+  height: 9px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+i {
+  width: 7px;
+  height: 5px;
+  font-family: FontAwesome;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+.txt {
+  width: 349px;
+  height: 9px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #999999;
+  margin-left: 17em; }
+
+.container {
+  width: 84.063em;
+  height: 3.313em;
+  background-color: #2d2827; }
+  .container li {
+    display: inline-block;
+    margin-left: 5em; }
+
+.container > * > *:nth-child(2) {
+  margin-left: .5em; }
+
+.container > * > *:nth-child(3) {
+  margin-left: 2em; }
+
+.container > * > *:nth-child(4) {
+  margin-left: .5em; }
+
+.container > * > *:nth-child(6) {
+  margin-left: 15em; }
+
+.container > * > *:nth-child(7) {
+  margin-left: 1.5em; }
+
+.container > * > *:nth-child(8) {
+  margin-left: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,56 @@
+// Global Imports
+@import 'partials/variables',
+        'partials/mixins',
+        'partials/base',
+        'partials/components',
+        'partials/responsive';
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+// Top Header
+.en {
+    width: 13px;
+    @include font;
+}
+
+.zar {
+    width: 21px;
+    @include font;
+}
+
+i {
+    @include icon;
+}
+
+.txt {
+    @include text;
+}
+
+.container {
+    width: 84.063em;
+    height: 3.313em;
+    background-color: #2d2827;
+
+    li {
+        display: inline-block;
+        margin-left: 5em;
+    }
+}
+
+.container>*>*:nth-child(2) {
+    margin-left: .5em;
+}
+.container>*>*:nth-child(3) {
+    margin-left: 2em;
+}
+.container>*>*:nth-child(4) {
+    margin-left: .5em;
+}
+.container>*>*:nth-child(6) {
+    margin-left: 15em;
+}
+.container>*>*:nth-child(7) {
+    margin-left: 1.5em;
+}
+.container>*>*:nth-child(8) {
+    margin-left: 1.5em;
+}

@@ -1,0 +1,43 @@
+// Top Hearder
+
+@mixin font {
+    height: 9px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+}
+
+@mixin icon {
+    width: 7px;
+    height: 5px;
+    font-family: FontAwesome;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+}
+
+@mixin text {
+    width: 349px;
+    height: 9px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #999999;
+    margin-left: 17em;
+}
