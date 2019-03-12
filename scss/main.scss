@@ -64,6 +64,9 @@ i {
         display: inline-block;
         margin: 0 1.5em;
     }
+    ul {
+        margin-top: 0;
+    }
 }
 
 .banner>*>*:nth-child(1) {
@@ -168,4 +171,59 @@ i {
     border-radius: 20px;
     background-color: #a88d7b;
     margin: 10em 0 0 43em;
+}
+
+.down {
+    width: 29px;
+    height: 16px;
+    font-family: Linearicons-Free;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+// ======================== // 
+    // Featured Product // 
+// ======================== // 
+
+.container2 {
+    width: 84.063em;
+    height: 704px;
+    background-color: #fff;
+
+    h1 {
+        height: 24px;
+        font-family: SourceSansPro;
+        font-size: 36px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333333;
+    }
+
+    hr {
+        width: 50px;
+        height: 2px;
+        background-color: #a88d7b;
+    }
+
+    li {
+        width: 320px;
+        height: 295px;
+        background-color: #666666;
+        display: -webkit-inline-box;
+    }
+
+    ul {
+        padding-left: 11em;
+        margin-top: 5em;
+    }
 }
