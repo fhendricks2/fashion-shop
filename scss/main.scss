@@ -324,3 +324,119 @@ i {
         margin: 5em 0 0 25em;
     }
 }
+
+// ================= // 
+    // Our Blog // 
+// ================= // 
+
+.container5 {
+    width: 76.063em;
+    height: 610px;
+    background-color: #f9f9f9;
+
+    h1 {
+        height: 24px;
+        font-family: SourceSansPro;
+        font-size: 36px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333333;
+    }
+
+    hr {
+        width: 50px;
+        height: 2px;
+        background-color: #a88d7b;
+    }
+
+    .grid {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 4em;
+        height: 25em;
+
+        img {
+            width: 585px;
+            height: 405px;
+            background-color: #666666;
+        }
+
+        h2 {
+            margin-top: 1em;
+            width: 370px;
+            height: 23px;
+            font-family: SourceSansPro;
+            font-size: 25px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.92;
+            letter-spacing: normal;
+            text-align: left;
+            color: #333333;
+        }
+
+        h5{
+            width: 117px;
+            height: 14px;
+            font-family: SourceSansPro;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 3.2;
+            letter-spacing: normal;
+            text-align: left;
+            color: #999999;
+        }
+
+        p {
+            width: 529px;
+            height: 130px;
+            font-family: SourceSansPro;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            text-align: left;
+            color: #666666;
+        }
+
+        a {
+            text-decoration: none;
+            width: 85px;
+            height: 10px;
+            font-family: SourceSansPro;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 3.2;
+            letter-spacing: 1.5px;
+            text-align: left;
+            color: #a88d7b;
+        }
+
+        i {
+            margin-left: .5em;
+            width: 15px;
+            height: 11px;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 3.2;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a88d7b;
+        }
+    }
+}
