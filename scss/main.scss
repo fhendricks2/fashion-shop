@@ -62,8 +62,9 @@ i {
 // Banner
 .banner {
     width: 76.063em;
-    height: 59.063em;
-    background-color: #666666;
+    height: 35.063em;
+    background: linear-gradient(to top, #ffffff00, #808080), url(../images/landscape-1483545037-sheer-lingerie-lead-1-min.jpg); 
+    background-size: cover;
     li {
         display: inline-block;
         margin: 0 1.5em;
@@ -153,7 +154,7 @@ i {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin: 6em 0 0 6em;
+    margin: 2em 0 0 6em;
 }
 
 .lorem {
@@ -176,7 +177,7 @@ i {
     height: 40px;
     border-radius: 20px;
     background-color: #a88d7b;
-    margin: 10em 0 0 39em;
+    margin: 5em 0 0 39em;
 }
 
 .down {
@@ -213,6 +214,7 @@ i {
         letter-spacing: normal;
         text-align: center;
         color: #333333;
+        margin-top: 2em;
     }
 
     hr {
@@ -228,9 +230,12 @@ i {
         display: -webkit-inline-box;
     }
 
-    ul {
-        padding-left: 8em;
-        margin-top: 5em;
+    .img-grid{
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        margin: 6em 8em 0 4em;
     }
 }
 
@@ -263,15 +268,20 @@ i {
         background-color: #a88d7b;
     }
 
-    li {
-        width: 570px;
-        height: 373px;
-        background-color: #666666;
-        display: -webkit-inline-box;
-    }
+    .img-grid2 {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2em;
 
-    ul {
-        margin-top: 5em;
+        
+        li {
+            width: 570px;
+            height: 373px;
+            background-color: #666666;
+            display: -webkit-inline-box;
+        }
     }
 }
 
@@ -333,6 +343,7 @@ i {
     width: 76.063em;
     height: 610px;
     background-color: #f9f9f9;
+   
 
     h1 {
         height: 24px;
@@ -357,7 +368,7 @@ i {
         display: grid;
         grid-column-gap: 20px;
         grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(4, 1fr);
         padding: 4em;
         height: 25em;
 
@@ -438,5 +449,195 @@ i {
             text-align: left;
             color: #a88d7b;
         }
+    }
+}
+
+// =============== // 
+    // Footer // 
+// =============== // 
+
+.footer {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
+    width: 76.063em;
+    height: 330px;
+    background-color: #2d2827;
+}
+
+.nateb {
+    margin-left: 6em;
+
+    h1 {
+        height: 21px;
+        font-family: Dosis;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #e5e5e5;
+    }
+
+    li {
+        width: 232px;
+        height: 18px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: #999999;
+        padding: 2em 0;
+        display: inline;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.links {
+    margin-left: 4em;
+
+    h1 {
+        width: 46px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #e5e5e5;
+    }
+
+    li {
+        height: 11px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: #999999;
+        padding: 1.5em 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.shop {
+    h1 {
+        width: 45px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #e5e5e5;
+    }
+
+    li {
+        width: 25px;
+        height: 10px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: #999999;
+        padding: 1.5em 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.media {
+
+    margin-right: 3em;
+    h1 {
+        width: 91px;
+        height: 13px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .top {    
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr); 
+        list-style-type: none;
+        padding-left: 0;
+        
+        li {
+            width: 80px;
+            height: 80px;
+            background-color: #ffffff;
+        }
+    }
+
+    .bottom {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr); 
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            width: 80px;
+            height: 80px;
+            background-color: #ffffff;
+        }
+    }
+}
+
+.footer2 {
+    width: 76.063em;
+    height: 40px;
+    background-color: #d7d7d7;
+
+    p {
+        height: 14px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: #666666;
+        margin-top: 0;
     }
 }
