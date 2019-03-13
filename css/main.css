@@ -280,7 +280,7 @@ i {
     width: 50px;
     height: 2px;
     background-color: #a88d7b; }
-  .container2 li {
+  .container2 img {
     width: 320px;
     height: 295px;
     background-color: #666666;
@@ -291,6 +291,19 @@ i {
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
     margin: 6em 8em 0 4em; }
+  .container2 ul {
+    list-style-type: none; }
+    .container2 ul p {
+      height: 18px;
+      font-family: SourceSansPro;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.4;
+      letter-spacing: normal;
+      text-align: center;
+      color: #333333; }
 
 .container3 {
   width: 76.063em;

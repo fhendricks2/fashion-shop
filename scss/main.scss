@@ -223,7 +223,7 @@ i {
         background-color: #a88d7b;
     }
 
-    li {
+    img {
         width: 320px;
         height: 295px;
         background-color: #666666;
@@ -236,6 +236,22 @@ i {
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(3, 1fr);
         margin: 6em 8em 0 4em;
+    }
+    ul {
+        list-style-type: none;
+
+        p {
+            height: 18px;
+            font-family: SourceSansPro;
+            font-size: 20px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 2.4;
+            letter-spacing: normal;
+            text-align: center;
+            color: #333333;
+        }
     }
 }
 
