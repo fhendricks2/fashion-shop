@@ -588,8 +588,13 @@ i {
             width: 80px;
             height: 80px;
             background-color: $text;
+
+            img {
+                width: 80px;
+            }
         }
     }
+
 
     .bottom {
         @include grid; 

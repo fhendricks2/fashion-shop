@@ -602,6 +602,9 @@ i {
       width: 80px;
       height: 80px;
       background-color: #fff; }
+    .media .top li img {
+      width: 80px;
+    }
   .media .bottom {
     display: grid;
     grid-column-gap: 20px;
@@ -613,7 +616,10 @@ i {
       width: 80px;
       height: 80px;
       background-color: #fff; }
-
+    .media .bottom li img {
+      width: 80px;
+      height: 80px;
+    }
 .footer2 {
   width: 76.063em;
   height: 40px;
