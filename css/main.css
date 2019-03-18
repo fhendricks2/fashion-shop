@@ -103,7 +103,7 @@ i {
   line-height: normal;
   letter-spacing: 1.1px;
   text-align: left;
-  color: #ffffff; }
+  color: #fff; }
 
 .banner > * > *:nth-child(2) {
   margin-left: 6em;
@@ -156,7 +156,7 @@ i {
   line-height: normal;
   letter-spacing: 1.5px;
   text-align: left;
-  color: #fffefe;
+  color: #fff;
   margin-left: 3em; }
 
 .banner > * > *:nth-child(6) {
@@ -210,7 +210,7 @@ i {
   line-height: normal;
   letter-spacing: 1.1px;
   text-align: left;
-  color: #ffffff; }
+  color: #fff; }
 
 .txt2 {
   width: 597px;
@@ -223,7 +223,7 @@ i {
   line-height: 0.96;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin: 2em 0 0 6em; }
 
 .lorem {
@@ -237,7 +237,7 @@ i {
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  color: #e6e6e6;
+  color: #fff;
   margin: 3em 0 0 13em; }
 
 .text-holder {
@@ -258,7 +258,7 @@ i {
   line-height: 1.6;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff; }
+  color: #fff; }
 
 .container2 {
   width: 76.063em;
@@ -308,7 +308,7 @@ i {
 .container3 {
   width: 76.063em;
   height: 705px;
-  background-color: #ffffff; }
+  background-color: #fff; }
   .container3 h1 {
     height: 24px;
     font-family: SourceSansPro;
@@ -329,18 +329,31 @@ i {
     grid-column-gap: 20px;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    padding: 2em; }
-    .container3 .img-grid2 li {
+    padding: 2em;
+    list-style-type: none; }
+    .container3 .img-grid2 img {
       width: 570px;
       height: 373px;
       background-color: #666666;
       display: -webkit-inline-box; }
+    .container3 .img-grid2 p {
+      height: 16px;
+      font-family: SourceSansPro;
+      font-size: 25px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.92;
+      letter-spacing: 2.5px;
+      text-align: center;
+      color: #a88d7b; }
 
 .container4 {
   width: 76.063em;
   height: 552px;
   opacity: 0.9;
-  background-color: #666666; }
+  background: linear-gradient(to top, #ffffff00, #808080), url(../images/sewing\ machine-min.jpg);
+  background-size: cover; }
   .container4 h1 {
     width: 530px;
     height: 37px;
@@ -352,7 +365,7 @@ i {
     line-height: 0.5;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     margin: 0;
     padding: 180px 0 40px 148px; }
   .container4 p {
@@ -366,7 +379,7 @@ i {
     line-height: 1.6;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     margin-top: 0;
     margin-left: 5em; }
   .container4 .view {
@@ -378,7 +391,7 @@ i {
 .container5 {
   width: 76.063em;
   height: 610px;
-  background-color: #f9f9f9; }
+  background-color: #fff; }
   .container5 h1 {
     height: 24px;
     font-family: SourceSansPro;
@@ -484,12 +497,12 @@ i {
     font-family: Dosis;
     font-size: 30px;
     font-weight: 600;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
     letter-spacing: 1.5px;
     text-align: left;
-    color: #e5e5e5; }
+    color: #fff; }
   .nateb li {
     width: 232px;
     height: 18px;
@@ -520,7 +533,7 @@ i {
     line-height: 1.33;
     letter-spacing: normal;
     text-align: left;
-    color: #e5e5e5; }
+    color: #fff; }
   .links li {
     height: 11px;
     font-family: SourceSansPro;
@@ -547,7 +560,7 @@ i {
   line-height: 1.33;
   letter-spacing: normal;
   text-align: left;
-  color: #e5e5e5; }
+  color: #fff; }
 .shop li {
   width: 25px;
   height: 10px;
@@ -577,7 +590,7 @@ i {
     line-height: 1.33;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff; }
+    color: #fff; }
   .media .top {
     display: grid;
     grid-column-gap: 20px;
@@ -588,7 +601,7 @@ i {
     .media .top li {
       width: 80px;
       height: 80px;
-      background-color: #ffffff; }
+      background-color: #fff; }
   .media .bottom {
     display: grid;
     grid-column-gap: 20px;
@@ -599,12 +612,12 @@ i {
     .media .bottom li {
       width: 80px;
       height: 80px;
-      background-color: #ffffff; }
+      background-color: #fff; }
 
 .footer2 {
   width: 76.063em;
   height: 40px;
-  background-color: #d7d7d7; }
+  background-color: #fff; }
   .footer2 p {
     height: 14px;
     font-family: SourceSansPro;
