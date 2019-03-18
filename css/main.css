@@ -602,9 +602,8 @@ i {
       width: 80px;
       height: 80px;
       background-color: #fff; }
-    .media .top li img {
-      width: 80px;
-    }
+      .media .top li img {
+        width: 80px; }
   .media .bottom {
     display: grid;
     grid-column-gap: 20px;
@@ -616,10 +615,7 @@ i {
       width: 80px;
       height: 80px;
       background-color: #fff; }
-    .media .bottom li img {
-      width: 80px;
-      height: 80px;
-    }
+
 .footer2 {
   width: 76.063em;
   height: 40px;
@@ -636,5 +632,68 @@ i {
     text-align: center;
     color: #666666;
     margin-top: 0; }
+
+.head {
+  width: 76.063em;
+  height: 3.313em;
+  background-color: #eeeeee; }
+  .head .en2 {
+    width: 12px;
+    height: 8px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999; }
+  .head .zar2 {
+    width: 20px;
+    height: 8px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999; }
+  .head .txt2 {
+    width: 349px;
+    height: 10px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #999999; }
+  .head li {
+    display: inline-block;
+    margin-left: 3.5em; }
+  .head ul {
+    padding-left: 0; }
+
+.navigation {
+  width: 1900px;
+  height: 93px;
+  background-color: #ffffff; }
+  .navigation h1 {
+    width: 116px;
+    height: 22px;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #000000; }
 
 /*# sourceMappingURL=main.css.map */
