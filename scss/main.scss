@@ -667,6 +667,7 @@ i {
         letter-spacing: normal;
         text-align: center;
         color: #999999;
+        padding-left: 15em;
     }
 
     .txt2 {
@@ -674,9 +675,7 @@ i {
         height: 10px;
         font-family: SourceSansPro;
         font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
+        @include font1;
         line-height: 1.83;
         letter-spacing: 2.4px;
         text-align: left;
@@ -689,8 +688,16 @@ i {
     }
 
     ul {
-        padding-left: 0;
+       padding-left: 3.5em;
     }
+}
+
+.head>*>*:nth-child(2) {
+    margin-left: 5px;
+}
+
+.head>*>*:nth-child(8) {
+    margin-left: 5px;
 }
 
 .navigation {
@@ -712,8 +719,13 @@ i {
         color: #000000;
     }
 
+    ul {
+        padding-left: 10em;
+    }
+
     li {
         display: inline-block;
+        margin: 0 5px 0 5px;
     }
 
     a {
@@ -722,7 +734,6 @@ i {
 }
 
 .navigation>*>*:nth-child(1) {
-    width: 116px;
     height: 22px;
     font-family: Dosis;
     font-size: 30px;
@@ -732,56 +743,54 @@ i {
     line-height: normal;
     letter-spacing: 1.5px;
     text-align: left;
-    color: #000000; 
+    color: #000000;
 }
 
 .navigation>*>*:nth-child(2) {
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666; 
+    @include nav;
+    padding-left: 17em;
 }
 
 .navigation>*>*:nth-child(3) {
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666; 
+    @include nav; 
 }
 
 .navigation>*>*:nth-child(4) {
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666; 
+    @include nav;
 }
 
 .navigation>*>*:nth-child(5) {
-
+    @include nav; 
 } 
 
 .navigation>*>*:nth-child(6) {
-
+    @include nav; 
 }
 
 .navigation>*>*:nth-child(7) {
+    @include nav; 
+}
 
+.navigation>*>*:nth-child(8) {
+    width: 21px;
+    height: 18px;
+    font-family: FontAwesome;
+    font-size: 22px;
+    @include font1;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #666666;
+}
+
+.navigation>*>*:nth-child(9) {
+    width: 19px;
+    height: 19px;
+    font-family: FontAwesome;
+    font-size: 20px;
+    @include font1;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #666666;
 }

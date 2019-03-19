@@ -663,7 +663,8 @@ i {
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #999999; }
+    color: #999999;
+    padding-left: 15em; }
   .head .txt2 {
     width: 349px;
     height: 10px;
@@ -680,7 +681,13 @@ i {
     display: inline-block;
     margin-left: 3.5em; }
   .head ul {
-    padding-left: 0; }
+    padding-left: 3.5em; }
+
+.head > * > *:nth-child(2) {
+  margin-left: 5px; }
+
+.head > * > *:nth-child(8) {
+  margin-left: 5px; }
 
 .navigation {
   width: 76.063em;
@@ -698,13 +705,15 @@ i {
     letter-spacing: 1.5px;
     text-align: left;
     color: #000000; }
+  .navigation ul {
+    padding-left: 10em; }
   .navigation li {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0 5px 0 5px; }
   .navigation a {
     text-decoration: none; }
 
 .navigation > * > *:nth-child(1) {
-  width: 116px;
   height: 22px;
   font-family: Dosis;
   font-size: 30px;
@@ -726,7 +735,8 @@ i {
   line-height: normal;
   letter-spacing: 0.8px;
   text-align: left;
-  color: #666666; }
+  color: #666666;
+  padding-left: 17em; }
 
 .navigation > * > *:nth-child(3) {
   height: 12px;
@@ -749,6 +759,68 @@ i {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666; }
+
+.navigation > * > *:nth-child(5) {
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666; }
+
+.navigation > * > *:nth-child(6) {
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666; }
+
+.navigation > * > *:nth-child(7) {
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666; }
+
+.navigation > * > *:nth-child(8) {
+  width: 21px;
+  height: 18px;
+  font-family: FontAwesome;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #666666; }
+
+.navigation > * > *:nth-child(9) {
+  width: 19px;
+  height: 19px;
+  font-family: FontAwesome;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
   text-align: left;
   color: #666666; }
 
