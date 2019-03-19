@@ -637,7 +637,7 @@ i {
     margin-top: 0; }
 
 .head {
-  width: 79.063em;
+  width: 78.063em;
   height: 3.313em;
   background-color: #eeeeee; }
   .head .en2 {
@@ -691,7 +691,7 @@ i {
 
 .navigation {
   width: 76.063em;
-  height: 93px;
+  height: 56px;
   background-color: #ffffff; }
   .navigation h1 {
     width: 116px;
@@ -823,5 +823,39 @@ i {
   letter-spacing: 1px;
   text-align: left;
   color: #666666; }
+
+.about-us {
+  width: 78.063em;
+  height: 685px;
+  background: linear-gradient(to top, #ffffff00, #808080), url(../images/about-min.jpg);
+  background-size: cover; }
+  .about-us h1 {
+    height: 35px;
+    font-family: SourceSansPro;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 5em 0 3em 0; }
+  .about-us span {
+    height: 13px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #cccccc;
+    padding-left: 38em; }
+  .about-us a {
+    color: #cccccc;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

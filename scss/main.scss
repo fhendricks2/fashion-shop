@@ -637,7 +637,7 @@ i {
 
 // Top Header
 .head {
-    width: 79.063em;
+    width: 78.063em;
     height: 3.313em;
     background-color:  #eeeeee;
 
@@ -700,9 +700,10 @@ i {
     margin-left: 5px;
 }
 
+// Navigation Bar
 .navigation {
     width: 76.063em;
-    height: 93px;
+    height: 56px;
     background-color: #ffffff;
 
     h1 {
@@ -793,4 +794,46 @@ i {
     letter-spacing: 1px;
     text-align: left;
     color: #666666;
+}
+
+// About us
+.about-us {
+    width: 78.063em;
+    height: 685px;
+    background: linear-gradient(to top, #ffffff00, #808080), url(../images/about-min.jpg);
+    background-size: cover;
+
+    h1 {
+        height: 35px;
+        font-family: SourceSansPro;
+        font-size: 50px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #ffffff;
+        margin: 0;
+        padding: 5em 0 3em 0;
+    }
+
+    span {
+        height: 13px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: #cccccc;
+        padding-left: 38em;
+    }
+
+    a {
+        color: #cccccc;
+        text-decoration: none;
+    }
 }
