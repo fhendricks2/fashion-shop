@@ -185,10 +185,7 @@ i {
     color: $text;
 }
 
-// ======================== // 
-    // Featured Product // 
-// ======================== // 
-
+// Featured Product // 
 .container2 {
     width: 76.063em;
     height: 670px;
@@ -244,11 +241,7 @@ i {
     }
 }
 
-
-// ======================= // 
-    // New Collection // 
-// ======================= // 
-
+// New Collection // 
 .container3 {
     width: 76.063em;
     height: 705px;
@@ -300,10 +293,7 @@ i {
     }
 }
 
-// =================== // 
-    // Hand Craft // 
-// =================== // 
-
+// Hand Craft // 
 .container4 {
         width: 76.063em;
         height: 552px;
@@ -348,10 +338,7 @@ i {
     }
 }
 
-// ================= // 
-    // Our Blog // 
-// ================= // 
-
+// Our Blog // 
 .container5 {
     width: 76.063em;
     height: 610px;
@@ -452,10 +439,7 @@ i {
     }
 }
 
-// =============== // 
-    // Footer // 
-// =============== // 
-
+// Footer // 
 .footer {
     @include grid;
     width: 76.063em;
@@ -634,7 +618,6 @@ i {
 }
 
 // ========================================== ABOUT PAGE ================================================================= // 
-
 // Top Header
 .head {
     width: 78.063em;
@@ -835,5 +818,49 @@ i {
     a {
         color: #cccccc;
         text-decoration: none;
+    }
+}
+
+// who are we
+.who-we-are {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 6em;
+
+    img {
+        width: 600px;
+        height: 490px;
+        background-color: #666666;
+    }
+
+    h1 {
+        height: 24px;
+        font-family: SourceSansPro;
+        font-size: 36px;
+        @include font1;
+        line-height: 0.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333333;
+    }
+
+    hr {
+        width: 50px;
+        height: 2px;
+        background-color: #ac907f;
+    }
+
+    p {
+        width: 445px;
+        height: 89px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
     }
 }

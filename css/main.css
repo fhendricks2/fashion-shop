@@ -858,4 +858,42 @@ i {
     color: #cccccc;
     text-decoration: none; }
 
+.who-we-are {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  padding: 6em; }
+  .who-we-are img {
+    width: 600px;
+    height: 490px;
+    background-color: #666666; }
+  .who-we-are h1 {
+    height: 24px;
+    font-family: SourceSansPro;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333; }
+  .who-we-are hr {
+    width: 50px;
+    height: 2px;
+    background-color: #ac907f; }
+  .who-we-are p {
+    width: 445px;
+    height: 89px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666; }
+
 /*# sourceMappingURL=main.css.map */
