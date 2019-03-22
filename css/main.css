@@ -1036,4 +1036,21 @@ i {
     color: #cccccc;
     text-decoration: none; }
 
+article {
+  padding: 8em; }
+  article .trading {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    border: solid 1px #e6e6e6;
+    background-color: #f0f0f0; }
+    article .trading h2,
+    article .trading p {
+      text-align: center; }
+    article .trading .contact {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr); }
+
 /*# sourceMappingURL=main.css.map */
