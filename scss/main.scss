@@ -199,7 +199,7 @@ i {
         line-height: 1.33;
         letter-spacing: normal;
         text-align: center;
-        color: #333333;
+        color: $txt ;
         margin-top: 2em;
     }
 
@@ -236,7 +236,7 @@ i {
             line-height: 2.4;
             letter-spacing: normal;
             text-align: center;
-            color: #333333;
+            color: $txt ;
         }
     }
 }
@@ -255,7 +255,7 @@ i {
         line-height: 1.33;
         letter-spacing: normal;
         text-align: center;
-        color: #333333;
+        color: $txt ;
     }
 
     hr {
@@ -353,7 +353,7 @@ i {
         line-height: 1.33;
         letter-spacing: normal;
         text-align: center;
-        color: #333333;
+        color: $txt ;
     }
 
     hr {
@@ -385,7 +385,7 @@ i {
             line-height: 1.92;
             letter-spacing: normal;
             text-align: left;
-            color: #333333;
+            color: $txt ;
         }
 
         h5{
@@ -845,7 +845,7 @@ i {
         line-height: 0.67;
         letter-spacing: normal;
         text-align: center;
-        color: #333333;
+        color: $txt ;
     }
 
     hr {
@@ -878,13 +878,11 @@ i {
         height: 24px;
         font-family: SourceSansPro;
         font-size: 36px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
+        @include font1;
         line-height: 1.33;
         letter-spacing: normal;
         text-align: center;
-        color: #333333;
+        color: $txt ;
     }
 
     hr {
@@ -895,10 +893,7 @@ i {
 }
 
 .gridteam {
-    display: grid;
-    grid-column-gap: 20px;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(4, 1fr); 
+    @include grid; 
     padding: 3em;
 
     img {
@@ -924,16 +919,14 @@ i {
         line-height: 2.4;
         letter-spacing: 1px;
         text-align: center;
-        color: #333333;
+        color: $txt ;
     }
 
     h4 {
         height: 14px;
         font-family: SourceSansPro;
         font-size: 15px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
+        @include font1;
         line-height: 1.47;
         letter-spacing: normal;
         text-align: center;
@@ -950,3 +943,49 @@ i {
         margin: 0 10px 0 10px;
     }
 }
+
+// What we do
+.what-we-do {
+    width: 72.063em;
+    height: 287px;
+    background-color: $text;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2em 0 3em; 
+
+    img {
+        width: 600px;
+        height: 490px;
+        background-color: $textp;
+    }
+
+    h1 {
+        height: 24px;
+        font-family: SourceSansPro;
+        font-size: 36px;
+        @include font1;
+        line-height: 0.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: $txt ;
+    }
+
+    hr {
+        width: 50px;
+        height: 2px;
+        background-color: $hr;
+    }
+
+    p {
+        height: 110px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textp;
+    }
+} 
