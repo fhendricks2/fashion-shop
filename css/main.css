@@ -681,7 +681,8 @@ i {
     display: inline-block;
     margin-left: 3.5em; }
   .head ul {
-    padding-left: 3.5em; }
+    padding-left: 3.5em;
+    margin: 0; }
 
 .head > * > *:nth-child(2) {
   margin-left: 5px; }
@@ -692,7 +693,7 @@ i {
 .navigation {
   width: 76.063em;
   height: 56px;
-  background-color: #ffffff; }
+  background-color: #fff; }
   .navigation h1 {
     width: 116px;
     height: 22px;
@@ -706,7 +707,8 @@ i {
     text-align: left;
     color: #000000; }
   .navigation ul {
-    padding-left: 10em; }
+    padding-left: 10em;
+    margin: 0; }
   .navigation li {
     display: inline-block;
     margin: 0 5px 0 5px; }
@@ -826,7 +828,7 @@ i {
 
 .about-us {
   width: 78.063em;
-  height: 685px;
+  height: 485px;
   background: linear-gradient(to top, #ffffff00, #808080), url(../images/about-min.jpg);
   background-size: cover; }
   .about-us h1 {
@@ -839,9 +841,9 @@ i {
     line-height: 1.2;
     letter-spacing: 5px;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     margin: 0;
-    padding: 5em 0 3em 0; }
+    padding: 4em 0 1em 0; }
   .about-us span {
     height: 13px;
     font-family: SourceSansPro;
@@ -852,10 +854,10 @@ i {
     line-height: 1.4;
     letter-spacing: normal;
     text-align: center;
-    color: #cccccc;
+    color: #8e8888;
     padding-left: 38em; }
   .about-us a {
-    color: #cccccc;
+    color: #8e8888;
     text-decoration: none; }
 
 .who-we-are {
@@ -882,7 +884,7 @@ i {
   .who-we-are hr {
     width: 50px;
     height: 2px;
-    background-color: #ac907f; }
+    background-color: #a88d7b; }
   .who-we-are p {
     width: 445px;
     height: 89px;
@@ -895,5 +897,69 @@ i {
     letter-spacing: normal;
     text-align: left;
     color: #666666; }
+
+.meet-our-team {
+  width: 78.063em;
+  height: 585px;
+  background-color: #fff; }
+  .meet-our-team h1 {
+    height: 24px;
+    font-family: SourceSansPro;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333; }
+  .meet-our-team hr {
+    width: 50px;
+    height: 2px;
+    background-color: #a88d7b; }
+
+.gridteam {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3em; }
+  .gridteam img {
+    width: 270px;
+    height: 305px;
+    background-color: #666666;
+    display: inline-block; }
+  .gridteam h3,
+  .gridteam h4,
+  .gridteam ul {
+    text-align: center; }
+  .gridteam h3 {
+    height: 19px;
+    font-family: SourceSansPro;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #333333; }
+  .gridteam h4 {
+    height: 14px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999; }
+  .gridteam ul {
+    list-style-type: none;
+    padding-left: 0; }
+  .gridteam li {
+    display: inline;
+    margin: 0 10px 0 10px; }
 
 /*# sourceMappingURL=main.css.map */
