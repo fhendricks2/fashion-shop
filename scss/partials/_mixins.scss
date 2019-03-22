@@ -59,6 +59,12 @@
     font-stretch: normal;
 }
 
+@mixin font2 {
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+}
+
 @mixin grid {
     display: grid;
     grid-column-gap: 20px;
