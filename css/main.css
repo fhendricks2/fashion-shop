@@ -1092,4 +1092,38 @@ form {
     text-align: center;
     color: #fff; }
 
+.blog {
+  width: 78.063em;
+  height: 485px;
+  background: linear-gradient(to top, #ffffff00, #808080), url(../images/rs=w_700\,cg_true-min.jpg);
+  background-size: cover; }
+  .blog h1 {
+    height: 35px;
+    font-family: SourceSansPro;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 4em 0 1em 0; }
+  .blog span {
+    height: 13px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #cccccc;
+    padding-left: 38em; }
+  .blog a {
+    color: #cccccc;
+    text-decoration: none; }
+
 /*# sourceMappingURL=main.css.map */
