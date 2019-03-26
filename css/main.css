@@ -1037,7 +1037,8 @@ i {
     text-decoration: none; }
 
 article {
-  padding: 8em; }
+  padding: 8em;
+  padding-bottom: 4em; }
   article .trading {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
@@ -1052,5 +1053,43 @@ article {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(1, 1fr); }
+
+form {
+  text-align: center; }
+  form #name {
+    padding-right: 23em;
+    margin: 2em;
+    height: 2em; }
+  form #email {
+    padding-right: 23em;
+    margin: 2em;
+    height: 2em; }
+  form #phonenumber {
+    padding-right: 23em;
+    margin: 2em;
+    height: 2em; }
+  form #subject {
+    padding-right: 23em;
+    margin: 2em;
+    height: 2em; }
+  form #textarea {
+    width: 75em;
+    height: 12em;
+    margin-bottom: 3em; }
+  form button {
+    height: 3em;
+    float: left;
+    margin-left: 9em;
+    margin-bottom: 4em;
+    background-color: #a88d7b;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
