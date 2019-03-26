@@ -1134,3 +1134,52 @@ form {
         text-decoration: none;
     }
 }
+
+.hero {
+    li {
+        display: inline;
+        margin: 0 10px;
+        width: 39px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textp;
+    }
+
+    img {
+        width: 20px;
+        color: $textp;
+    }
+}
+
+.hero>*>*:nth-child(1) {
+    margin-left: 12em;
+}
+.hero>*>*:nth-child(2) {
+    margin-left: 35em;
+}
+
+.line {
+    width: 1170px;
+    height: 1px;
+    background-color: #e6e6e6;
+}
+
+.bloggrid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+    img {
+        width: 370px;
+        height: 225px;
+        background-color: #666666;
+    }
+}
