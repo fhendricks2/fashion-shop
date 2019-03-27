@@ -1189,7 +1189,7 @@ form {
 .bloggrid>*>*:nth-child(1) {
     width: 400px;
     height: 225px;
-    background-color: #666666;
+    background-color: $textp;
     display: -webkit-box;
 }
 
@@ -1368,5 +1368,182 @@ form {
         text-align: center;
         color: $textp;
         margin-top: 0;
+    }
+}
+
+// ========================================= SHOP PAGE ====================================================== // 
+
+.shop {
+    width: 78.063em;
+    height: 485px;  
+    background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
+    background-size: cover;
+
+    h1 {
+        height: 35px;
+        font-family: SourceSansPro;
+        font-size: 50px;
+        @include font1;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        text-align: center;
+        color: $text;
+        margin: 0;
+        padding: 4em 0 1em 11em;
+    }
+
+    span {
+        height: 13px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: $txta ;
+        padding-left: 38em;
+    }
+
+    a {
+        color: $txta ;
+        text-decoration: none;
+    }
+}
+
+.shop-hero {
+    width: 78.063em;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+        margin: 0 10px;
+        width: 39px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textp;
+    }
+}
+
+.shop-hero>*>*:nth-child(1){
+    height: 14px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: $textp;
+    padding-left: 10em;
+}
+
+.shop-hero>*>*:nth-child(2){
+    height: 11px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: right;
+    color: $textp;
+    padding-left: 30em;
+}
+
+.shop-area {
+    padding: 8em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    width: 62.063em;
+    height: 1260px;
+    background-color: #f5f5f5;
+}
+
+.red-lace {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
+
+    img {
+        width: 300px;
+        height: 300px;
+        background-color: $textp;
+    }   
+
+    button {
+        width: 180px;
+        height: 44px;
+        background-color: $hr; 
+    }
+}
+
+.black-goth {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2em;
+
+    img {
+        width: 300px;
+        height: 300px;
+        background-color: $textp;
+    }  
+
+    button {
+        width: 180px;
+        height: 44px;
+        background-color: $hr; 
+    }
+}
+
+.lpink-satin {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2em;
+
+    img {
+        width: 300px;
+        height: 300px;
+        background-color: $textp;
+    }  
+
+    button{
+        width: 180px;
+        height: 44px;
+        background-color: $hr;
+    }
+}
+
+.peach-bustier {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2em;
+
+    img {
+        width: 300px;
+        height: 300px;
+        background-color: $textp;
+    }  
+
+    button{
+        width: 180px;
+        height: 44px;
+        background-color: $hr;
     }
 }
