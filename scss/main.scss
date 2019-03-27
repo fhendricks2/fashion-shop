@@ -1373,7 +1373,7 @@ form {
 
 // ========================================= SHOP PAGE ====================================================== // 
 
-.shop {
+.shopbanner {
     width: 78.063em;
     height: 485px;  
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
@@ -1469,7 +1469,7 @@ form {
     padding-bottom: 4em;
     padding-top: 2em;
     width: 62.063em;
-    height: 1260px;
+    height: 1350px;
     background-color: #f5f5f5;
 }
 
@@ -1545,5 +1545,28 @@ form {
         width: 180px;
         height: 44px;
         background-color: $hr;
+    }
+}
+
+.next {
+    ul {
+        list-style-type: none;
+        padding-left: 45em;
+    }
+
+    li {
+        display: inline;
+        margin: 0 10px;
+        width: 39px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textp;
     }
 }

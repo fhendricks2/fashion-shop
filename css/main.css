@@ -1330,12 +1330,12 @@ form {
     color: #666666;
     margin-top: 0; }
 
-.shop {
+.shopbanner {
   width: 78.063em;
   height: 485px;
   background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
   background-size: cover; }
-  .shop h1 {
+  .shopbanner h1 {
     height: 35px;
     font-family: SourceSansPro;
     font-size: 50px;
@@ -1348,7 +1348,7 @@ form {
     color: #fff;
     margin: 0;
     padding: 4em 0 1em 11em; }
-  .shop span {
+  .shopbanner span {
     height: 13px;
     font-family: SourceSansPro;
     font-size: 15px;
@@ -1360,7 +1360,7 @@ form {
     text-align: center;
     color: #cccccc;
     padding-left: 38em; }
-  .shop a {
+  .shopbanner a {
     color: #cccccc;
     text-decoration: none; }
 
@@ -1414,7 +1414,7 @@ form {
   padding-bottom: 4em;
   padding-top: 2em;
   width: 62.063em;
-  height: 1260px;
+  height: 1350px;
   background-color: #f5f5f5; }
 
 .red-lace {
@@ -1471,5 +1471,23 @@ form {
     width: 180px;
     height: 44px;
     background-color: #a88d7b; }
+
+.next ul {
+  list-style-type: none;
+  padding-left: 45em; }
+.next li {
+  display: inline;
+  margin: 0 10px;
+  width: 39px;
+  height: 12px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666; }
 
 /*# sourceMappingURL=main.css.map */
