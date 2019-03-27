@@ -1136,6 +1136,7 @@ form {
 }
 
 .hero {
+    width: 78.063em;
     li {
         display: inline;
         margin: 0 10px;
@@ -1171,15 +1172,201 @@ form {
     background-color: #e6e6e6;
 }
 
+.blogarea {
+    padding: 0;
+    width: 78.063em;
+    height: 990px;
+    background-color: $text;
+}
+
 .bloggrid {
     display: grid;
     grid-column-gap: 20px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
+}
 
-    img {
-        width: 370px;
-        height: 225px;
-        background-color: #666666;
+.bloggrid>*>*:nth-child(1) {
+    width: 400px;
+    height: 225px;
+    background-color: #666666;
+    display: -webkit-box;
+}
+
+// Footer // 
+.blogfooter {
+    @include grid;
+    width: 78.063em;
+    height: 330px;
+    background-color: #2d2827;
+}
+
+.nateb {
+    margin-left: 6em;
+
+    h1 {
+        height: 21px;
+        font-family: Dosis;
+        font-size: 30px;
+        font-weight: 600;
+        @include font1;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: $text;
+    }
+
+    li {
+        width: 232px;
+        height: 18px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textli;
+        padding: 2em 0;
+        display: inline;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.links {
+    margin-left: 4em;
+
+    h1 {
+        width: 46px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: $text;
+    }
+
+    li {
+        height: 11px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textli;
+        padding: 1.5em 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.shop {
+    h1 {
+        width: 45px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: $text;
+    }
+
+    li {
+        width: 25px;
+        height: 10px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textli;
+        padding: 1.5em 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.media {
+
+    margin-right: 3em;
+    h1 {
+        width: 91px;
+        height: 13px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: $text;
+    }
+
+    .top {    
+        @include grid;
+        list-style-type: none;
+        padding-left: 0;
+        
+        li {
+            width: 80px;
+            height: 80px;
+            background-color: $text;
+
+            img {
+                width: 80px;
+            }
+        }
+    }
+
+
+    .bottom {
+        @include grid; 
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            width: 80px;
+            height: 80px;
+            background-color: $text;
+
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+.blogfooter2 {
+    width: 78.063em;
+    height: 40px;
+    background-color: $text;
+
+    p {
+        height: 14px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        @include font1;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textp;
+        margin-top: 0;
     }
 }
