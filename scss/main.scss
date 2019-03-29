@@ -74,6 +74,15 @@ i {
     ul {
         margin-top: 0;
     }
+
+    a {
+        text-decoration: none;
+        color: $text; 
+    }
+
+    a:hover {
+        color: $txt;
+    }
 }
 
 .banner>*>*:nth-child(1) {
@@ -1389,7 +1398,7 @@ form {
         text-align: center;
         color: $text;
         margin: 0;
-        padding: 4em 0 1em 11em;
+        padding: 4em 0 1em 0;
     }
 
     span {
@@ -1570,3 +1579,45 @@ form {
         color: $textp;
     }
 }
+
+// ============================== LOOKBOOK ====================================== // 
+
+.lookbook {
+    width: 78.063em;
+    height: 485px;  
+    background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
+    background-size: cover;
+
+    h1 {
+        height: 35px;
+        font-family: SourceSansPro;
+        font-size: 50px;
+        @include font1;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        text-align: center;
+        color: $text;
+        margin: 0;
+        padding: 4em 0 1em 0;
+    }
+
+    span {
+        height: 13px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: $txta ;
+        padding-left: 38em;
+    }
+
+    a {
+        color: $txta ;
+        text-decoration: none;
+    }
+}
+
