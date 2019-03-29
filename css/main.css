@@ -1335,8 +1335,59 @@ form {
     color: #666666;
     margin-top: 0; }
 
+.shophead {
+  width: 90.063em;
+  height: 3.313em;
+  background-color: #eeeeee; }
+  .shophead .en2 {
+    width: 12px;
+    height: 8px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999; }
+  .shophead .zar2 {
+    width: 20px;
+    height: 8px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    padding-left: 15em; }
+  .shophead .txt2 {
+    width: 349px;
+    height: 10px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #999999; }
+  .shophead li {
+    display: inline-block;
+    margin-left: 3.5em; }
+  .shophead ul {
+    padding-left: 3.5em;
+    margin: 0; }
+
+.navigation {
+  width: 90.063em; }
+
 .shopbanner {
-  width: 78.063em;
+  width: 90.063em;
   height: 485px;
   background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
   background-size: cover; }
@@ -1370,7 +1421,7 @@ form {
     text-decoration: none; }
 
 .shop-hero {
-  width: 78.063em; }
+  width: 90.063em; }
   .shop-hero ul {
     list-style-type: none; }
   .shop-hero li {
@@ -1418,7 +1469,7 @@ form {
   padding: 8em;
   padding-bottom: 4em;
   padding-top: 2em;
-  width: 62.063em;
+  width: 90.063em;
   height: 1350px;
   background-color: #f5f5f5; }
 
@@ -1494,6 +1545,14 @@ form {
   letter-spacing: normal;
   text-align: center;
   color: #666666; }
+
+.blogfooter {
+  width: 90.063em; }
+  .blogfooter .media {
+    margin-right: 0em; }
+
+.blogfooter2 {
+  width: 90.063em; }
 
 .lookbook {
   width: 78.063em;

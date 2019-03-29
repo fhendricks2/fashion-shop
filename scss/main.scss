@@ -1382,8 +1382,64 @@ form {
 
 // ========================================= SHOP PAGE ====================================================== // 
 
+.shophead {
+    width: 90.063em;
+    height: 3.313em;
+    background-color: #eeeeee;
+
+    .en2 {
+        width: 12px;
+        height: 8px;
+        font-family: SourceSansPro;
+        font-size: 12px;
+        font-weight: 300;
+        @include font2;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textli ;
+    }
+
+    .zar2 {
+        width: 20px;
+        height: 8px;
+        font-family: SourceSansPro;
+        font-size: 12px;
+        font-weight: 300;
+        @include font2;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textli ;
+        padding-left: 15em;
+    }
+
+    .txt2 {
+        width: 349px;
+        height: 10px;
+        font-family: SourceSansPro;
+        font-size: 12px;
+        @include font1;
+        line-height: 1.83;
+        letter-spacing: 2.4px;
+        text-align: left;
+        color: $textli ;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 3.5em;
+    }
+
+    ul {
+       padding-left: 3.5em;
+       margin: 0;
+    }
+}
+
+.navigation {
+    width: 90.063em;
+}
 .shopbanner {
-    width: 78.063em;
+    width:  90.063em;
     height: 485px;  
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
     background-size: cover;
@@ -1422,7 +1478,7 @@ form {
 }
 
 .shop-hero {
-    width: 78.063em;
+    width: 90.063em;
 
     ul {
         list-style-type: none;
@@ -1477,7 +1533,7 @@ form {
     padding: 8em;
     padding-bottom: 4em;
     padding-top: 2em;
-    width: 62.063em;
+    width: 90.063em;
     height: 1350px;
     background-color: #f5f5f5;
 }
@@ -1580,6 +1636,17 @@ form {
     }
 }
 
+.blogfooter {
+    width: 90.063em;
+    .media {
+        margin-right: 0em;
+    }
+}
+
+.blogfooter2{
+    width: 90.063em;
+}
+
 // ============================== LOOKBOOK ====================================== // 
 
 .lookbook {
@@ -1621,3 +1688,64 @@ form {
     }
 }
 
+// ================== MEDIA QUERIES ====================== // 
+
+// @media screen and (max-width: 1440px) {
+//     .container {
+//         width: 89.063em;
+//         ul {
+//             padding-left: 7em;
+//         }
+//     }
+  
+
+//     .banner {
+//         width: 89.063em;
+//         ul {
+//             padding-left: 9em;
+//         }
+//         .txt2 {
+//             margin: 2em 0 0 8em;
+//         }
+//         .lorem {
+//             margin: 3em 0 0 17em;
+//         }
+//         .text-holder {
+//             margin: 5em 0 0 47em;
+//         }
+//     }
+
+//     .container2 {
+//         width: 89.063em;
+//     }
+
+//     .container3 {
+//         width: 89.063em;
+//     }
+
+//     .container4 {
+//         width: 89.063em;
+
+//         h1 {
+//             padding: 200px 0 40px 215px;
+//         }
+//         p {
+//             margin-left: 10em;
+//         }
+//         .view {
+//             margin: 5em 0 0 32em;
+//         }
+//     }
+
+//     .container5 {
+//         width: 89.063em;
+//     }
+
+//     .footer {
+//         width: 89.063em;
+//     }
+
+//     .footer2 {
+//         width: 89.063em;
+//     }
+// }
