@@ -782,36 +782,12 @@ i {
 
 // About us
 .about-us {
-    width: 78.063em;
-    height: 485px;  
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/about-min.jpg);
-    background-size: cover;
-
-    h1 {
-        height: 35px;
-        font-family: SourceSansPro;
-        font-size: 50px;
-        @include font1;
-        line-height: 1.2;
-        letter-spacing: 5px;
-        text-align: center;
-        color: $text;
-        margin: 0;
-        padding: 4em 0 1em 0;
-    }
+    @include banner;
 
     span {
-        height: 13px;
-        font-family: SourceSansPro;
-        font-size: 15px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
+        @include span;
         color: #8e8888;
-        padding-left: 38em;
     }
 
     a {
@@ -989,37 +965,13 @@ i {
 
 // // =======================================CONTACT PAGE ============================================================== // //
 
-.contact-us {
-    width: 78.063em;
-    height: 485px;  
+.contact-us { 
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/contact-banner-min.jpg);
-    background-size: cover;
-
-    h1 {
-        height: 35px;
-        font-family: SourceSansPro;
-        font-size: 50px;
-        @include font1;
-        line-height: 1.2;
-        letter-spacing: 5px;
-        text-align: center;
-        color: $text;
-        margin: 0;
-        padding: 4em 0 1em 0;
-    }
+    @include banner;
 
     span {
-        height: 13px;
-        font-family: SourceSansPro;
-        font-size: 15px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
+        @include span;
         color: $txta ;
-        padding-left: 38em;
     }
 
     a {
@@ -1105,37 +1057,12 @@ form {
 // =================================== BLOG PAGE ==========================================================================//
 
 .blog {
-    width: 78.063em;
-    height: 485px;  
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/rs=w_700\,cg_true-min.jpg);
-    background-size: cover;
-
-    
-    h1 {
-        height: 35px;
-        font-family: SourceSansPro;
-        font-size: 50px;
-        @include font1;
-        line-height: 1.2;
-        letter-spacing: 5px;
-        text-align: center;
-        color: $text;
-        margin: 0;
-        padding: 4em 0 1em 0;
-    }
+    @include banner;
 
     span {
-        height: 13px;
-        font-family: SourceSansPro;
-        font-size: 15px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
+        @include span;
         color: $txta ;
-        padding-left: 38em;
     }
 
     a {
@@ -1435,9 +1362,89 @@ form {
     }
 }
 
-.navigation {
-    width: 90.063em;
+.shopnavigation {
+    width: 76.063em;
+    height: 56px;
+    background-color: $text;
+
+    h1 {
+        width: 116px;
+        height: 22px;
+        font-family: Dosis;
+        font-size: 30px;
+        font-weight: 600;
+        @include font2;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #000000;
+    }
+
+    ul {
+        padding-left: 10em;
+        margin: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 5px 0 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
+
+.shopnavigation>*>*:nth-child(2) {
+    @include nav;
+    padding-left: 17em;
+}
+
+.shopnavigation>*>*:nth-child(3) {
+    @include nav; 
+}
+
+.shopnavigation>*>*:nth-child(4) {
+    @include nav;
+}
+
+.shopnavigation>*>*:nth-child(5) {
+    @include nav; 
+} 
+
+.shopnavigation>*>*:nth-child(6) {
+    @include nav; 
+}
+
+.shopnavigation>*>*:nth-child(7) {
+    @include nav; 
+}
+
+.shopnavigation>*>*:nth-child(8) {
+    width: 21px;
+    height: 18px;
+    font-family: FontAwesome;
+    font-size: 22px;
+    @include font1;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: $textp;
+}
+
+.shopnavigation>*>*:nth-child(9) {
+    width: 19px;
+    height: 19px;
+    font-family: FontAwesome;
+    font-size: 20px;
+    @include font1;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: left;
+    color: $textp;
+}
+
+
+
 .shopbanner {
     width:  90.063em;
     height: 485px;  
@@ -1458,17 +1465,8 @@ form {
     }
 
     span {
-        height: 13px;
-        font-family: SourceSansPro;
-        font-size: 15px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
+        @include span;
         color: $txta ;
-        padding-left: 38em;
     }
 
     a {
@@ -1636,50 +1634,193 @@ form {
     }
 }
 
-.blogfooter {
+// Footer // 
+.shopfooter {
+    @include grid;
     width: 90.063em;
-    .media {
-        margin-right: 0em;
+    height: 330px;
+    background-color: #2d2827;
+}
+
+.nateb {
+    margin-left: 6em;
+
+    h1 {
+        height: 21px;
+        font-family: Dosis;
+        font-size: 30px;
+        font-weight: 600;
+        @include font1;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: $text;
+    }
+
+    li {
+        width: 232px;
+        height: 18px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textli;
+        padding: 2em 0;
+        display: inline;
+    }
+
+    ul {
+        list-style-type: none;
     }
 }
 
-.blogfooter2{
+.links {
+    margin-left: 4em;
+
+    h1 {
+        width: 46px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: $text;
+    }
+
+    li {
+        height: 11px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textli;
+        padding: 1.5em 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.shop {
+    h1 {
+        width: 45px;
+        height: 12px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: $text;
+    }
+
+    li {
+        width: 25px;
+        height: 10px;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        @include font1;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: $textli;
+        padding: 1.5em 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.media {
+
+    margin-right: 0;
+    h1 {
+        width: 91px;
+        height: 13px;
+        font-family: SourceSansPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: $text;
+    }
+
+    .top {    
+        @include grid;
+        list-style-type: none;
+        padding-left: 0;
+        
+        li {
+            width: 80px;
+            height: 80px;
+            background-color: $text;
+
+            img {
+                width: 80px;
+            }
+        }
+    }
+
+
+    .bottom {
+        @include grid; 
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            width: 80px;
+            height: 80px;
+            background-color: $text;
+
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+.shopfooter2 {
     width: 90.063em;
+    height: 40px;
+    background-color: $text;
+
+    p {
+        height: 14px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        @include font1;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textp;
+        margin-top: 0;
+    }
 }
 
 // ============================== LOOKBOOK ====================================== // 
 
 .lookbook {
-    width: 78.063em;
-    height: 485px;  
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/shop-page-min.jpg);
-    background-size: cover;
-
-    h1 {
-        height: 35px;
-        font-family: SourceSansPro;
-        font-size: 50px;
-        @include font1;
-        line-height: 1.2;
-        letter-spacing: 5px;
-        text-align: center;
-        color: $text;
-        margin: 0;
-        padding: 4em 0 1em 0;
-    }
+    @include banner;
 
     span {
-        height: 13px;
-        font-family: SourceSansPro;
-        font-size: 15px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
+        @include span;
         color: $txta ;
-        padding-left: 38em;
     }
 
     a {
