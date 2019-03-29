@@ -37,7 +37,7 @@
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="lookbook.html">LOOKBOOK</a></li>
-                <li><span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                <li><span class="glyphicon my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
                 <li><i class="fa fa-search" aria-hidden="true"></i></li>
             </ul>
         </div>
@@ -64,7 +64,7 @@
                 <h1>Red Lace Set<i class="fal fa-heart"></i></h1>
                 <h4>R400.00</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores iusto eligendi maxime, at ducimus nisi facilis, ipsum voluptatem aspernatur natus corrupti quae quis corporis nam repellat eum ex? Laborum?</p>
-                <button type="addNewProduct" name="addNewProduct" id="addNewProduct">Add New Product</button>
+                <button class="btn btn-danger my-cart-btn" data-id="1" data-name="Red Lace Set" data-summary="summary 1" data-price="400" data-quantity="1" data-image="img-lace">Add to Cart</button>
             </div>
         </section>
 
@@ -76,7 +76,7 @@
                 <h1>Black Goth Overbust<i class="fal fa-heart"></i></h1>
                 <h4>R665.00</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, atque? Debitis fugit ducimus temporibus doloremque consequatur, cumque, neque alias earum qui mollitia doloribus libero! Sed deserunt explicabo quae ullam officia.</p>
-                <button>Add to Cart</button>
+                <button class="btn btn-danger my-cart-btn" data-id="1" data-name="Black Goth Overbust" data-summary="summary 1" data-price="665" data-quantity="1" data-image="images/img_1.png">Add to Cart</button>
             </div>
         </section>
 
@@ -88,7 +88,7 @@
                 <h1>Light Pink Satin Set<i class="fal fa-heart"></i></h1>
                 <h4>R327.00</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veritatis alias illo, nemo tempora eveniet repudiandae excepturi temporibus minima doloribus deserunt totam eaque. Qui ad laborum vero modi accusantium beatae?</p>
-                <button>Add to Cart</button>
+                <button class="btn btn-danger my-cart-btn" data-id="1" data-name="Light Pink Satin Set" data-summary="summary 1" data-price="327" data-quantity="1" data-image="images/img_1.png">Add to Cart</button>
             </div>
         </section>
 
@@ -100,7 +100,7 @@
                 <h1>Black Lace Peach Bustier<i class="fal fa-heart"></i></h1>
                 <h4>R350.00</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem omnis consectetur atque quidem ea quod dolorum voluptate dolorem modi repellendus, totam nesciunt assumenda facere facilis vitae nemo perferendis adipisci! Optio.</p>
-                <button>Add to Cart</button>
+                <button class="btn btn-danger my-cart-btn" data-id="1" data-name="Black Lace Peach Bustier" data-summary="summary 1" data-price="350" data-quantity="1" data-image="images/img_1.png">Add to Cart</button>
             </div>
         </section>
 
@@ -197,7 +197,7 @@
     }
 
     $('.my-cart-btn').myCart({
-      currencySymbol: '$',
+      currencySymbol: 'R',
       classCartIcon: 'my-cart-icon',
       classCartBadge: 'my-cart-badge',
       classProductQuantity: 'my-product-quantity',
@@ -207,9 +207,6 @@
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'images/img_1.png'},
-        {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'images/img_2.png'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'images/img_3.png'}
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
