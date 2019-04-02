@@ -1855,6 +1855,8 @@ form {
   .lookbook a {
     color: #cccccc;
     text-decoration: none; }
+  .lookbook a:hover {
+    color: #a88d7b; }
 
 .lookbookgrid {
   display: grid;

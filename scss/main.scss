@@ -1827,9 +1827,11 @@ form {
         color: $txta ;
         text-decoration: none;
     }
-}
 
-// ==================== LOOKBOOK ============================ // 
+    a:hover {
+        color: $hr;
+    }
+}
 
 .lookbookgrid {
     display: grid;
