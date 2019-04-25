@@ -1099,7 +1099,7 @@ form {
 }
 
 .hero {
-    width: 78.063em;
+    width: 100%;
     li {
         display: inline;
         margin: 0 10px;
@@ -1114,6 +1114,10 @@ form {
         letter-spacing: normal;
         text-align: center;
         color: $textp;
+    }
+
+    ul {
+        margin-left: 75px;
     }
 
     img {
@@ -1137,9 +1141,10 @@ form {
 
 .blogarea {
     padding: 0;
-    width: 78.063em;
+    width: 100%;
     height: 990px;
     background-color: $text;
+    margin-bottom: 3em;
 }
 
 .bloggrid {
@@ -1147,6 +1152,7 @@ form {
     grid-column-gap: 20px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
+    padding: 2em;
 }
 
 .bloggrid>*>*:nth-child(1) {
@@ -1159,7 +1165,7 @@ form {
 // Footer // 
 .blogfooter {
     @include grid;
-    width: 78.063em;
+    width: 100%;
     height: 330px;
     background-color: #2d2827;
 }

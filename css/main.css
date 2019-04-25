@@ -1157,7 +1157,7 @@ form {
     text-decoration: none; }
 
 .hero {
-  width: 78.063em; }
+  width: 100%; }
   .hero li {
     display: inline;
     margin: 0 10px;
@@ -1172,6 +1172,8 @@ form {
     letter-spacing: normal;
     text-align: center;
     color: #666666; }
+  .hero ul {
+    margin-left: 75px; }
   .hero img {
     width: 20px;
     color: #666666; }
@@ -1189,15 +1191,17 @@ form {
 
 .blogarea {
   padding: 0;
-  width: 78.063em;
+  width: 100%;
   height: 990px;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-bottom: 3em; }
 
 .bloggrid {
   display: grid;
   grid-column-gap: 20px;
   grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em; }
 
 .bloggrid > * > *:nth-child(1) {
   width: 400px;
@@ -1210,7 +1214,7 @@ form {
   grid-column-gap: 20px;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  width: 78.063em;
+  width: 100%;
   height: 330px;
   background-color: #2d2827; }
 
