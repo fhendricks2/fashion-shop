@@ -27,7 +27,7 @@ i {
 }
 
 .container {
-    width: 76.063em;
+    width: 100% !important;
     height: 3.313em;
     background-color: #2d2827;
 
@@ -37,7 +37,7 @@ i {
     }
 
     ul {
-        padding-left: 0;
+        padding-left: 80px;
     }
 }
 
@@ -62,7 +62,7 @@ i {
 
 // Banner
 .banner {
-    width: 76.063em;
+    width: 100%;
     height: 35.063em;
     background: linear-gradient(to top, #ffffff00, #808080), url(../images/landscape-1483545037-sheer-lingerie-lead-1-min.jpg); 
     background-size: cover;
@@ -73,6 +73,7 @@ i {
     }
     ul {
         margin-top: 0;
+        margin-left: 60px;
     }
 
     a {
@@ -156,7 +157,7 @@ i {
     letter-spacing: normal;
     text-align: center;
     color: $text;
-    margin: 2em 0 0 6em;
+    margin: 2em 0 0 7em;
 }
 
 .lorem {
@@ -169,7 +170,7 @@ i {
     letter-spacing: normal;
     text-align: center;
     color: $text;
-    margin: 3em 0 0 13em;
+    margin: 3em 0 0 14em;
 }
 
 .text-holder {
@@ -177,7 +178,7 @@ i {
     height: 40px;
     border-radius: 20px;
     background-color: $hr;
-    margin: 5em 0 0 39em;
+    margin: 5em 0 0 45em;
 }
 
 .down {
@@ -194,7 +195,7 @@ i {
 
 // Featured Product // 
 .container2 {
-    width: 76.063em;
+    width: 100%;
     height: 670px;
     background-color: $text;
 
@@ -250,7 +251,7 @@ i {
 
 // New Collection // 
 .container3 {
-    width: 76.063em;
+    width: 100%;
     height: 705px;
     background-color: $text;
 
@@ -302,7 +303,7 @@ i {
 
 // Hand Craft // 
 .container4 {
-        width: 76.063em;
+        width: 100%;
         height: 552px;
         opacity: 0.9;
         background: linear-gradient(to top, #ffffff00, #808080), url(../images/sewing\ machine-min.jpg);
@@ -347,7 +348,7 @@ i {
 
 // Our Blog // 
 .container5 {
-    width: 76.063em;
+    width: 100%;
     height: 610px;
     background-color: $text;
    
@@ -449,7 +450,7 @@ i {
 // Footer // 
 .footer {
     @include grid;
-    width: 76.063em;
+    width: 100%;
     height: 330px;
     background-color: #2d2827;
 }
@@ -556,7 +557,7 @@ i {
 
 .media {
 
-    margin-right: 3em;
+    margin-right: 45px !important;
     h1 {
         width: 91px;
         height: 13px;
@@ -621,13 +622,14 @@ i {
         text-align: center;
         color: $textp;
         margin-top: 0;
+        margin-left: 95px;
     }
 }
 
 // ========================================== ABOUT PAGE ================================================================= // 
 // Top Header
 .head {
-    width: 78.063em;
+    width: 100%;
     height: 3.313em;
     background-color:  #eeeeee;
 
@@ -674,8 +676,8 @@ i {
     }
 
     ul {
-       padding-left: 3.5em;
-       margin: 0;
+        padding-left: 80px;
+        margin: 0;
     }
 }
 
@@ -689,7 +691,7 @@ i {
 
 // Navigation Bar
 .navigation {
-    width: 76.063em;
+    width: 100%;
     height: 56px;
     background-color: $text;
 
@@ -843,7 +845,7 @@ i {
 // Meet the team
 
 .meet-our-team {
-    width: 78.063em;    
+    width: 100%;    
     height: 585px;
     background-color: $text;
 
@@ -880,6 +882,7 @@ i {
     h4,
     ul {
         text-align: center;
+        padding-right: 1em;
     }
 
     h3 {
@@ -926,7 +929,7 @@ i {
     grid-column-gap: 20px;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 2em 0 3em; 
+    padding: 0 2em 4em 6em; 
 
     img {
         width: 600px;
