@@ -1066,6 +1066,22 @@ article {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(1, 1fr); }
+  article .fa-map-marker-alt:before {
+    content: "\f3c5";
+    font-size: -webkit-xxx-large;
+    margin-left: 3em; }
+  article .fa-clock:before {
+    content: "\f017";
+    font-size: -webkit-xxx-large;
+    margin-left: 3em; }
+  article .fa-phone:before {
+    content: "\f095";
+    font-size: large;
+    margin-left: 9em; }
+  article .fa-envelope:before {
+    content: "\f0e0";
+    font-size: large;
+    margin-left: 9em; }
 
 form {
   text-align: center; }
@@ -1092,7 +1108,7 @@ form {
   form button {
     height: 3em;
     float: left;
-    margin-left: 9em;
+    margin-left: 11em;
     margin-bottom: 4em;
     background-color: #a88d7b;
     font-family: SourceSansPro;

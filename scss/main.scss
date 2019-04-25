@@ -1006,6 +1006,30 @@ article {
             grid-template-columns: repeat(1, 1fr);
         }
     }
+
+    .fa-map-marker-alt:before {
+        content: "\f3c5";
+        font-size: -webkit-xxx-large;
+        margin-left: 3em;
+    }
+
+    .fa-clock:before {
+        content: "\f017";
+        font-size: -webkit-xxx-large;
+        margin-left: 3em;
+    }
+
+    .fa-phone:before {
+        content: "\f095";
+        font-size: large;
+        margin-left: 9em;
+    }
+
+    .fa-envelope:before {
+        content: "\f0e0";
+        font-size: large;
+        margin-left: 9em;
+    }
 }
 
 form {
@@ -1044,7 +1068,7 @@ form {
     button {
         height: 3em;
         float: left;
-        margin-left: 9em;
+        margin-left: 11em;
         margin-bottom: 4em;
         background-color: $hr;
         font-family: SourceSansPro;
